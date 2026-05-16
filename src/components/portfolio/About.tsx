@@ -46,11 +46,11 @@ export function About() {
             { icon: Layers, k: "Projects", v: 50, s: "+" },
             { icon: Award, k: "Awards", v: 15, s: "+" },
             { icon: Coffee, k: "Coffees", v: 1000, s: "+" },
-          ].map(({ icon: Icon, k, v, s, static: stat }, i) => (
+          ].map(({ icon: Icon, k, v, s }, i) => (
             <div key={i} className="glass col-span-6 rounded-2xl p-6 md:col-span-2 md:p-8">
               <Icon className="h-5 w-5 text-muted-foreground" />
               <div className="mt-6 font-display text-4xl font-medium md:text-5xl">
-                {stat ? <span>1.2s</span> : <Counter end={v} suffix={s} />}
+                <Counter end={v} suffix={s} />
               </div>
               <p className="mt-1 text-[10px] uppercase tracking-[0.25em] text-muted-foreground">{k}</p>
             </div>
