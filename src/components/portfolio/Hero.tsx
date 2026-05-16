@@ -29,7 +29,7 @@ export function Hero() {
 
   return (
     <section ref={root} id="hero" className="relative grain min-h-screen overflow-hidden">
-      <div className="hero-parallax relative z-10 mx-auto flex min-h-screen max-w-7xl flex-col justify-end px-6 pb-20 pt-32">
+      <div className="hero-parallax relative z-10 mx-auto flex min-h-screen flex-col justify-start md:justify-end px-6 pb-20 pt-24 md:pt-32">
         <div className="hero-meta mb-8 flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-muted-foreground">
           <span className="h-px w-10 bg-foreground/40" />
           <span>Welcome to my portfolio</span>
