@@ -41,7 +41,7 @@ export function Nav() {
     <header className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${scrolled ? "py-3" : "py-6"}`}>
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6">
         <button onClick={() => go("hero")} className="font-display text-sm font-semibold tracking-[0.2em] uppercase">
-          Æ/01
+          RG3
         </button>
         <nav className={`hidden md:block transition-all duration-500 ${scrolled ? "glass rounded-full px-2 py-2" : ""}`}>
           <ul className="flex items-center gap-1">

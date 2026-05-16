@@ -14,9 +14,9 @@ import { Footer } from "@/components/portfolio/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Ætherion — Creative Developer Portfolio" },
+      { title: "Guce Portfolio" },
       { name: "description", content: "Cinematic portfolio of a creative developer crafting immersive 3D web experiences with WebGL, GSAP, and motion design." },
-      { property: "og:title", content: "Ætherion — Creative Developer Portfolio" },
+      { property: "og:title", content: "Guce Portfolio" },
       { property: "og:description", content: "Cinematic portfolio of a creative developer crafting immersive 3D web experiences." },
     ],
   }),
