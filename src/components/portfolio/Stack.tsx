@@ -1,4 +1,4 @@
-const techs = ["React", "TypeScript", "Three.js", "GSAP", "WebGL", "Next.js", "Node", "Vite", "Tailwind", "Rust", "GLSL", "Figma", "Blender", "Framer"];
+const techs = ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vue.js", "Node.js", "Python", "PostgreSQL", "MongoDB", "Figma", "Adobe XD", "React Native", "Flutter", "Docker", "AWS"];
 
 export function Stack() {
   return (
@@ -7,9 +7,10 @@ export function Stack() {
         <div className="flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-muted-foreground">
           <span className="h-px w-10 bg-foreground/40" /> 03 — Stack
         </div>
-        <h2 className="font-display mt-6 max-w-3xl text-[clamp(2rem,4.5vw,4rem)] font-medium leading-[1] text-balance">
-          Tools sharpened over <span className="font-serif text-silver">a thousand</span> nights.
+        <h2 className="font-display mt-6 max-w-3xl text-[clamp(2rem,4.5vw,4rem)] font-medium leading-[1.05] text-balance">
+          What I bring to <span className="font-serif text-silver">the table</span>.
         </h2>
+        <p className="mt-4 max-w-xl text-sm leading-relaxed text-muted-foreground">A comprehensive skill set spanning design, development, and deployment.</p>
       </div>
 
       <div className="relative overflow-hidden border-y border-border py-10">

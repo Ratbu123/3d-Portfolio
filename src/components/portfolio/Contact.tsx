@@ -17,9 +17,12 @@ export function Contact() {
         <div className="mb-12 flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-muted-foreground">
           <span className="h-px w-10 bg-foreground/40" /> 05 — Contact
         </div>
-        <SplitReveal as="h2" className="font-display max-w-5xl text-[clamp(2.5rem,8vw,8rem)] font-medium leading-[0.9] text-balance">
-          Let's build something cinematic.
+        <SplitReveal as="h2" className="font-display max-w-5xl text-[clamp(2.5rem,8vw,8rem)] font-medium leading-[1] text-balance">
+          Let's work together.
         </SplitReveal>
+        <p className="mt-6 max-w-xl text-sm leading-relaxed text-muted-foreground">
+          Have a project in mind? Feel free to reach out and let's create something amazing.
+        </p>
 
         <div className="mt-20 grid grid-cols-12 gap-8">
           <form
@@ -68,12 +71,16 @@ export function Contact() {
 
           <aside className="col-span-12 space-y-12 lg:col-span-5">
             <div>
-              <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">Direct</p>
-              <a href="mailto:hello@aetherion.dev" className="font-display mt-3 block text-2xl md:text-3xl">hello@aetherion.dev</a>
+              <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">Email</p>
+              <a href="mailto:GuceDiter03@gmail.com" className="font-display mt-3 block text-xl md:text-2xl">GuceDiter03@gmail.com</a>
+            </div>
+            <div>
+              <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">Phone</p>
+              <p className="font-display mt-3 text-2xl">+69 963 679 6878</p>
             </div>
             <div>
               <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">Based</p>
-              <p className="font-display mt-3 text-2xl">Lisbon · Remote</p>
+              <p className="font-display mt-3 text-2xl">Alitagtag, Batangas</p>
             </div>
             <div>
               <p className="mb-4 text-xs uppercase tracking-[0.25em] text-muted-foreground">Elsewhere</p>

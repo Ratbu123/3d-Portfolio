@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import { ArrowDown } from "lucide-react";
 import { SplitReveal } from "./SplitReveal";
 
-const roles = ["Frontend Developer", "Creative Developer", "UI/UX Designer"];
+const roles = ["Full-Stack Developer", "UI/UX Designer"];
 
 export function Hero() {
   const root = useRef<HTMLElement>(null);
@@ -32,13 +32,13 @@ export function Hero() {
       <div className="hero-parallax relative z-10 mx-auto flex min-h-screen max-w-7xl flex-col justify-end px-6 pb-20 pt-32">
         <div className="hero-meta mb-8 flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-muted-foreground">
           <span className="h-px w-10 bg-foreground/40" />
-          <span>Portfolio · 2026</span>
+          <span>Welcome to my portfolio</span>
         </div>
-        <h1 className="font-display text-[clamp(3.5rem,12vw,12rem)] font-medium leading-[0.85] text-balance">
-          <SplitReveal as="span" className="block">Alex</SplitReveal>
+        <h1 className="font-display text-[clamp(3rem,11vw,11rem)] font-medium leading-[0.9] text-balance">
+          <SplitReveal as="span" className="block">Hi, I'm</SplitReveal>
           <span className="block">
-            <span className="font-serif text-silver">Æ</span>
-            <SplitReveal as="span" className="inline" delay={0.15}>therion</SplitReveal>
+            <SplitReveal as="span" className="inline" delay={0.15}>Rodolfo</SplitReveal>{" "}
+            <span className="font-serif text-silver">Guce</span>
           </span>
         </h1>
 
@@ -57,13 +57,13 @@ export function Hero() {
             </div>
           </div>
           <p className="hero-meta text-sm leading-relaxed text-muted-foreground md:col-span-1 md:text-base">
-            Building immersive interfaces at the intersection of code, motion, and three-dimensional storytelling.
+            Crafting elegant digital experiences with clean code and thoughtful design. I build products that users love and businesses need.
           </p>
           <div className="hero-meta flex items-center justify-start gap-3 md:justify-end">
             <a data-magnetic href="#work" className="group relative overflow-hidden rounded-full bg-foreground px-6 py-3 text-xs font-medium uppercase tracking-[0.2em] text-background">
-              <span className="relative z-10">Selected Work</span>
+              <span className="relative z-10">View My Work</span>
             </a>
-            <a data-magnetic href="#contact" className="rounded-full border border-border px-6 py-3 text-xs font-medium uppercase tracking-[0.2em]">Contact</a>
+            <a data-magnetic href="#contact" className="rounded-full border border-border px-6 py-3 text-xs font-medium uppercase tracking-[0.2em]">Contact Me</a>
           </div>
         </div>
       </div>

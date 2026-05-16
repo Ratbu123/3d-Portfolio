@@ -4,10 +4,12 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ArrowUpRight, Github } from "lucide-react";
 
 const projects = [
-  { n: "01", title: "Helios OS", tag: "Spatial Interface", year: "2026", stack: ["R3F", "WebGL", "GSAP"], desc: "An ambient OS prototype exploring volumetric depth as a navigation primitive." },
-  { n: "02", title: "Monocle", tag: "Editorial Platform", year: "2025", stack: ["Next.js", "Sanity", "Lenis"], desc: "Long-form publishing tool for design studios with cinematic article transitions." },
-  { n: "03", title: "Vector Field", tag: "Generative Tool", year: "2025", stack: ["Three.js", "GLSL", "WASM"], desc: "Realtime particle compositor used by motion designers and VJs worldwide." },
-  { n: "04", title: "Atelier", tag: "Brand Identity OS", year: "2024", stack: ["Vite", "Framer", "Rive"], desc: "Living brand system that mutates across surfaces, tone, and time of day." },
+  { n: "01", title: "E-Commerce Platform", tag: "Featured", year: "2026", stack: ["React", "Node.js", "MongoDB", "Stripe"], desc: "A fully responsive online shopping platform with cart management, payment integration, and admin dashboard." },
+  { n: "02", title: "Project Management Tool", tag: "Web App", year: "2025", stack: ["Next.js", "TypeScript", "PostgreSQL", "WebSocket"], desc: "Collaborative workspace for teams with task tracking, time management, and real-time updates." },
+  { n: "03", title: "Design System", tag: "Featured", year: "2025", stack: ["React", "Tailwind", "Storybook", "TypeScript"], desc: "Comprehensive UI component library with extensive documentation and accessibility features." },
+  { n: "04", title: "Analytics Dashboard", tag: "Data Viz", year: "2024", stack: ["Vue.js", "D3.js", "Express", "Redis"], desc: "Real-time data visualization platform with customizable widgets and comprehensive reporting." },
+  { n: "05", title: "Mobile Banking App", tag: "Mobile", year: "2024", stack: ["React Native", "Firebase", "Node.js", "JWT"], desc: "Secure mobile-first banking solution with biometric authentication and instant transfers." },
+  { n: "06", title: "AI Content Generator", tag: "Featured", year: "2024", stack: ["Python", "OpenAI", "FastAPI", "React"], desc: "Machine learning powered tool for generating marketing copy and creative content." },
 ];
 
 export function Projects() {
