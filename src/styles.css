@@ -4,6 +4,12 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@font-face {
+  font-family: "Editorial";
+  src: local("Times New Roman");
+  font-display: swap;
+}
+
 /*
  * Design system definition.
  *
