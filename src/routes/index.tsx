@@ -1,26 +1,44 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useLenis } from "@/hooks/useLenis";
+import { Cursor } from "@/components/portfolio/Cursor";
+import { Scene3D } from "@/components/portfolio/Scene3D";
+import { Nav } from "@/components/portfolio/Nav";
+import { Hero } from "@/components/portfolio/Hero";
+import { About } from "@/components/portfolio/About";
+import { Projects } from "@/components/portfolio/Projects";
+import { Stack } from "@/components/portfolio/Stack";
+import { Experience } from "@/components/portfolio/Experience";
+import { Contact } from "@/components/portfolio/Contact";
+import { Footer } from "@/components/portfolio/Footer";
 
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Ætherion — Creative Developer Portfolio" },
+      { name: "description", content: "Cinematic portfolio of a creative developer crafting immersive 3D web experiences with WebGL, GSAP, and motion design." },
+      { property: "og:title", content: "Ætherion — Creative Developer Portfolio" },
+      { property: "og:description", content: "Cinematic portfolio of a creative developer crafting immersive 3D web experiences." },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
-  return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
-  );
-}
-
 function Index() {
-  return <PlaceholderIndex />;
+  useLenis();
+  return (
+    <main className="relative">
+      <Cursor />
+      <Scene3D />
+      <Nav />
+      <div className="relative z-10">
+        <Hero />
+        <About />
+        <Projects />
+        <Stack />
+        <Experience />
+        <Contact />
+        <Footer />
+      </div>
+    </main>
+  );
 }
