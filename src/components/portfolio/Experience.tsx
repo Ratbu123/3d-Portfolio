@@ -5,7 +5,7 @@ const items = [
   { y: "2026 — Present", role: "Full-Stack Developer", co: "NextGenIT Solutions", q: "Leading development of enterprise web applications. Architecting scalable solutions and mentoring junior developers. Reduced load time by 60% and led a team of 5." },
   { y: "2025 — 2026", role: "UI/UX Developer", co: "Canva & Figma", q: "Bridged design and development teams to create seamless user experiences across web and mobile. Designed a component library used by 50+ developers and increased engagement by 45%." },
   { y: "2024 — 2025", role: "Frontend Developer", co: "Freelancing", q: "Developed responsive web applications using modern JavaScript frameworks. Built 15+ client projects from concept to deployment and mentored 3 junior developers." },
-  { y: "2023 — 2024", role: "Senior High — Web Development", co: "Alitagtag Senior High School", q: "Graduated with honors. Avg 91.5. Top student on web development with focus on software engineering." },
+  { y: "2023 — 2024", role: "Senior High — Web Development", co: "Alitagtag Senior High School", q: "Graduated with honors. Avg 91.5. Top student on web development with focus on web designs" },
 ];
 
 export function Experience() {
